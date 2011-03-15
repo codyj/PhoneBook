@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PhoneBook' target in the 'PhoneBook' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
