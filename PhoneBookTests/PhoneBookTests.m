@@ -7,27 +7,26 @@
 //
 
 #import "PhoneBookTests.h"
-
+#import "PBPhoneBook.h"
 
 @implementation PhoneBookTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
     
     // Set-up code here.
+    phoneBook = [[PBPhoneBook new] retain];
+    STAssertNotNil(phoneBook, @"Cannot create PBPhoneBook instance");
 }
 
-- (void)tearDown
-{
+- (void)tearDown {
     // Tear-down code here.
-    
+    [phoneBook release];
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in PhoneBookTests");
+- (void)testExample {
+    STAssertTrue([[phoneBook test] isEqualToString:@"Success"], @"Calling test on phoneBook failed.");
 }
 
 @end

@@ -8,10 +8,11 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+@class PBPhoneBook;
 
 @interface PhoneBookTests : SenTestCase {
 @private
-    
+    PBPhoneBook *phoneBook;
 }
 
 @end
