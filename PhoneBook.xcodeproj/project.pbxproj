@@ -30,13 +30,13 @@
 /* Begin PBXFileReference section */
 		879CCB38132F605800E08E81 /* libPhoneBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPhoneBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		879CCB3B132F605800E08E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		879CCB3F132F605800E08E81 /* PhoneBook-Prefix.pch */ = {isa = PBXFileReference; path = "PhoneBook-Prefix.pch"; sourceTree = "<group>"; };
+		879CCB3F132F605800E08E81 /* PhoneBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneBook-Prefix.pch"; sourceTree = "<group>"; };
 		879CCB45132F605900E08E81 /* PhoneBookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneBookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		879CCB46132F605900E08E81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		879CCB49132F605900E08E81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		879CCB50132F605900E08E81 /* PhoneBookTests-Info.plist */ = {isa = PBXFileReference; path = "PhoneBookTests-Info.plist"; sourceTree = "<group>"; };
+		879CCB50132F605900E08E81 /* PhoneBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneBookTests-Info.plist"; sourceTree = "<group>"; };
 		879CCB52132F605900E08E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		879CCB54132F605900E08E81 /* PhoneBookTests-Prefix.pch */ = {isa = PBXFileReference; path = "PhoneBookTests-Prefix.pch"; sourceTree = "<group>"; };
+		879CCB54132F605900E08E81 /* PhoneBookTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneBookTests-Prefix.pch"; sourceTree = "<group>"; };
 		879CCB55132F605900E08E81 /* PhoneBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneBookTests.h; sourceTree = "<group>"; };
 		879CCB57132F605900E08E81 /* PhoneBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneBookTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
