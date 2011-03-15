@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87135057132F6301006AE687 /* PBPhoneBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 87135055132F6301006AE687 /* PBPhoneBook.h */; };
+		87135058132F6301006AE687 /* PBPhoneBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 87135056132F6301006AE687 /* PBPhoneBook.m */; };
 		879CCB3C132F605800E08E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879CCB3B132F605800E08E81 /* Foundation.framework */; };
 		879CCB47132F605900E08E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879CCB46132F605900E08E81 /* UIKit.framework */; };
 		879CCB48132F605900E08E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879CCB3B132F605800E08E81 /* Foundation.framework */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87135055132F6301006AE687 /* PBPhoneBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPhoneBook.h; sourceTree = "<group>"; };
+		87135056132F6301006AE687 /* PBPhoneBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPhoneBook.m; sourceTree = "<group>"; };
 		879CCB38132F605800E08E81 /* libPhoneBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPhoneBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		879CCB3B132F605800E08E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		879CCB3F132F605800E08E81 /* PhoneBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneBook-Prefix.pch"; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				879CCB3E132F605800E08E81 /* Supporting Files */,
+				87135055132F6301006AE687 /* PBPhoneBook.h */,
+				87135056132F6301006AE687 /* PBPhoneBook.m */,
 			);
 			path = PhoneBook;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87135057132F6301006AE687 /* PBPhoneBook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87135058132F6301006AE687 /* PBPhoneBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 				GCC_PREFIX_HEADER = "PhoneBook/PhoneBook-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -320,6 +329,7 @@
 				GCC_PREFIX_HEADER = "PhoneBook/PhoneBook-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -382,6 +392,7 @@
 				879CCB5D132F605900E08E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		879CCB5E132F605900E08E81 /* Build configuration list for PBXNativeTarget "PhoneBookTests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +401,7 @@
 				879CCB60132F605900E08E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
